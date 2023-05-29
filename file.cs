@@ -1,4 +1,4 @@
-#include <syidio.h>
+#include <stdio.h>
 
 int main() {
 	int a = 5;
@@ -6,6 +6,6 @@ int main() {
 	int sum = a + b;
 	int difference = a - b;
 	printf("Сумма: %d\n", sum)
-	printd("Разность: %d\n", diference)
+	printf("Разность: %d\n", diference)
 	return 0;
 }
